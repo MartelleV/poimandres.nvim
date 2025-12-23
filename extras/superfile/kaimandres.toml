@@ -1,0 +1,61 @@
+# Kaimandres Theme for Superfile
+
+# Code syntax highlight theme
+code_syntax_highlight = "catppuccin-macchiato"
+
+# ========= Border =========
+file_panel_border = "#767c9d"
+sidebar_border = "#767c9d"
+footer_border = "#767c9d"
+
+# ========= Border Active =========
+file_panel_border_active = "#78a9ff"
+sidebar_border_active = "#78a9ff"
+footer_border_active = "#78a9ff"
+modal_border_active = "#78a9ff"
+
+# ========= Background (bg) =========
+full_screen_bg = "#16161e"
+file_panel_bg = "#16161e"
+sidebar_bg = "#16161e"
+footer_bg = "#16161e"
+modal_bg = "#16161e"
+
+# ========= Foreground (fg) =========
+full_screen_fg = "#e4e4eb"
+file_panel_fg = "#e4e4eb"
+sidebar_fg = "#e4e4eb"
+footer_fg = "#e4e4eb"
+modal_fg = "#e4e4eb"
+
+# ========= Special Color =========
+cursor = "#e4e4eb"
+correct = "#5de4c7"
+error = "#exceptionMagenta"
+hint = "#78a9ff"
+cancel = "#d0679d"
+
+# Gradient color: Green to Pink
+gradient_color = ["#5de4c7", "#f087bd"]
+
+# ========= File Panel Special Items =========
+file_panel_top_directory_icon = "#5de4c7"
+file_panel_top_path = "#78a9ff"
+file_panel_item_selected_fg = "#5de4c7"
+file_panel_item_selected_bg = "#353749"
+
+# ========= Sidebar Special Items =========
+sidebar_title = "#f087bd"
+sidebar_item_selected_fg = "#5de4c7"
+sidebar_item_selected_bg = "#353749"
+sidebar_divider = "#353749"
+
+# ========= Modal Special Items =========
+modal_cancel_fg = "#e4e4eb"
+modal_cancel_bg = "#767c9d"
+modal_confirm_fg = "#16161e"
+modal_confirm_bg = "#78a9ff"
+
+# ========= Help Menu =========
+help_menu_hotkey = "#5de4c7"
+help_menu_title = "#f087bd"
