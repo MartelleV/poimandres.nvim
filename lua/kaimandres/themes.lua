@@ -82,6 +82,7 @@ function M.generate(palette)
       parameter = palette.parameterPurple,
       readonlyTeal = palette.readonlyTeal,
       staticGold = palette.staticGold,
+      tags = palette.skyBlue,
 
       -- Functions and methods
       fun = palette.blue,
