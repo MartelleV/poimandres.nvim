@@ -171,11 +171,11 @@ function M.setup(colors, config)
     ["@diff.delta"] = { fg = theme.vcs.changed },
 
     -- ========================================================================
-    -- Tags (HTML/XML/JSX)
+    -- Tags (HTML/XML/JSX/VUE)
     -- ========================================================================
     ["@tag"] = { fg = theme.syn.keyword },
     ["@tag.builtin"] = { fg = theme.syn.keyword, bold = true },
-    ["@tag.attribute"] = { fg = theme.syn.identifier, italic = true },
+    ["@tag.attribute"] = { fg = theme.syn.tags, italic = true },
     ["@tag.delimiter"] = { fg = theme.syn.punct },
 
     -- ========================================================================
@@ -215,8 +215,8 @@ function M.setup(colors, config)
     -- JSX/TSX
     ["@tag.tsx"] = { fg = theme.syn.keyword },
     ["@tag.jsx"] = { fg = theme.syn.keyword },
-    ["@tag.attribute.tsx"] = { fg = theme.syn.identifier, italic = true },
-    ["@tag.attribute.jsx"] = { fg = theme.syn.identifier, italic = true },
+    ["@tag.attribute.tsx"] = { fg = theme.syn.tags, italic = true },
+    ["@tag.attribute.jsx"] = { fg = theme.syn.tags, italic = true },
     ["@tag.delimiter.tsx"] = { fg = theme.syn.punct },
     ["@tag.delimiter.jsx"] = { fg = theme.syn.punct },
     ["@constructor.tsx"] = { fg = theme.syn.type },
@@ -226,7 +226,7 @@ function M.setup(colors, config)
     -- Language-Specific: Vue
     -- ========================================================================
     ["@tag.vue"] = { fg = theme.syn.keyword },
-    ["@tag.attribute.vue"] = { fg = theme.syn.identifier, italic = true },
+    ["@tag.attribute.vue"] = { fg = theme.syn.tags, italic = true },
     ["@tag.delimiter.vue"] = { fg = theme.syn.punct },
     ["@variable.member.vue"] = { fg = theme.syn.property },
 
@@ -337,7 +337,7 @@ function M.setup(colors, config)
     -- Language-Specific: HTML
     -- ========================================================================
     ["@tag.html"] = { fg = theme.syn.keyword },
-    ["@tag.attribute.html"] = { fg = theme.syn.identifier, italic = true },
+    ["@tag.attribute.html"] = { fg = theme.syn.tags, italic = true },
     ["@tag.delimiter.html"] = { fg = theme.syn.punct },
     ["@string.special.url.html"] = { fg = theme.syn.property, underline = true },
 
