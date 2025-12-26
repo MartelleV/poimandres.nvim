@@ -34,7 +34,7 @@ function M.setup(colors, config)
     IncSearch = { fg = theme.ui.fg_reverse, bg = theme.diag.warning },
     Substitute = { fg = theme.ui.fg, bg = theme.vcs.removed },
 
-    LineNr = { fg = theme.ui.nontext, bg = theme.ui.bg_gutter },
+    LineNr = { fg = theme.ui.nontext, bg = "none" },
     CursorLineNr = { fg = theme.diag.warning, bg = theme.ui.bg_gutter, bold = true },
 
     MatchParen = { fg = theme.diag.warning, bold = true },
