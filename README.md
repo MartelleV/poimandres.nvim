@@ -105,10 +105,9 @@ Kaimandres includes hand-tuned highlights for the following plugins:
 * **Dap-UI** (Debug Adapter Protocol)
 * **Indent Blankline** & **Mini.indentscope**
 * **Lazy.nvim** & **Mason**
-* **Notify** & **Noice**
 * **Trouble** & **Aerial**
 * **Mini.nvim** suite
-* **Noice.nvim** UI popups and messages
+* **Noice.nvim**'s UI popups and messages
 
 ### Lualine Support
 
