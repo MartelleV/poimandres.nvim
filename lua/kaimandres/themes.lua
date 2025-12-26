@@ -66,7 +66,7 @@ function M.generate(palette)
         fg = palette.white,
         bg = palette.deepBlack,
         fg_border = palette.stoneGray,
-        bg_border = palette.voidBlack,
+        bg_border = palette.deepBlack,
       },
     },
     syn = {
