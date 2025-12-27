@@ -1,0 +1,23 @@
+background: "#16161e"
+accent: "#6394e6"
+foreground: "#e4e4eb"
+details: darker
+terminal_colors:
+  normal:
+    black: "#16161e" # Palette 0
+    red: "#d0679d" # Palette 1
+    green: "#5de4c7" # Palette 2
+    yellow: "#fffac2" # Palette 3
+    blue: "#78a9ff" # Palette 4
+    magenta: "#f087bd" # Palette 5
+    cyan: "#89ddff" # Palette 6
+    white: "#e4e4eb" # Palette 7
+  bright:
+    black: "#767c9d" # Palette 8
+    red: "#ea9bba" # Palette 9
+    green: "#7ae9cc" # Palette 10
+    yellow: "#e7d66d" # Palette 11
+    blue: "#add7ff" # Palette 12
+    magenta: "#f087bd" # Palette 13
+    cyan: "#a3e5ff" # Palette 14
+    white: "#d7d7de" # Palette 15
